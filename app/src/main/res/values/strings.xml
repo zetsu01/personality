@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">personality</string>
+    <string name="rubriques">RUBRIQUES</string>
+    <string name="presidents">Présidents</string>
+    <string name="ministres">Ministres</string>
+    <string name="deputes">Députés</string>
+    <string name="presidents_assembles">Présidents Assemblés</string>
+    <string name="maires">Maires</string>
+
+    // page3
+
+    <string name="talon">\@patricetalon</string>
+    <string name="emira">United Arab Emirates</string>
+    <string name="text">At vero eos et accusamus et iusto.</string>
+    <string name="mrkets">\Qatar stock Exchange.Dubai stock</string>
+
 </resources>

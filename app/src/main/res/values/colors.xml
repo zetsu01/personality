@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="president">#776a5f</color>
+    <color name="ministre">#928481</color>
+    <color name="deputes">#564c47</color>
+    <color name="presidentAssemble">#686868</color>
+    <color name="maires">#422420</color>
+    <color name = "azure">#F0FFFF</color>
 </resources>
