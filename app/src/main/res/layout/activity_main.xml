@@ -6,13 +6,140 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:backgroundTint="@color/azure"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="UnusedAttribute"
+        android:background="@drawable/ic_background">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/rubriques"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            tools:ignore="SmallSp,SpUsage" />
+
+        <LinearLayout
+            android:id="@+id/layoutPresident"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_radius"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rubrique1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/presidents"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight,NestedWeights" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutMinistre"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_radius2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rubrique2"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/ministres"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutDeputes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_radius3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rubrique3"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/deputes"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutPrAssemble"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_radius4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rubrique4"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/presidents_assembles"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight,NestedWeights" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutMaires"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_radius5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rubrique5"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/maires"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                tools:ignore="InefficientWeight,NestedWeights" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

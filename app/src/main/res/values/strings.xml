@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">personality</string>
+    <string name="rubriques">RUBRIQUES</string>
+    <string name="presidents">Présidents</string>
+    <string name="ministres">Ministres</string>
+    <string name="deputes">Députés</string>
+    <string name="presidents_assembles">Présidents Assemblés</string>
+    <string name="maires">Maires</string>
 </resources>
