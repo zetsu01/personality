@@ -9,6 +9,7 @@
     </item>
     <item>
         <shape>
+            <solid android:color="@color/maires" />
             <corners android:radius="31dp" />
         </shape>
     </item>
