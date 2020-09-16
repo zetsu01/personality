@@ -23,17 +23,20 @@
             android:orientation="horizontal"
             tools:context=".MainActivity">
 
+
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_margin="14dp"
                 android:layout_marginStart="46dp"
-
-
                 android:src="@drawable/yes"
                 app:civ_border_color="#27AAFF"
                 app:civ_border_width="4dp"
                 tools:ignore="MissingClass,MissingConstraints,RtlCompat" />
+                app:civ_border_width="4dp"
+                app:civ_border_color="#27AAFF"
+                tools:ignore="MissingConstraints,RtlCompat" />
+
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -46,8 +49,7 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:layout_margin="2dp"
-            android:layout_marginStart="10dp"
-            >
+            android:layout_marginStart="10dp">
 
 
             <LinearLayout
@@ -70,7 +72,6 @@
                                     310.000"
                     android:textSize="14sp"
                     android:layout_margin="4dp"/>
-
 
             </LinearLayout>
 

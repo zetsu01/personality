@@ -9,6 +9,10 @@
     </item>
     <item>
         <shape>
+<<<<<<< HEAD
+=======
+            <solid android:color="@color/maires" />
+>>>>>>> 2e7b61e230de978e66b951eae6c99ebefc2a54d9
             <corners android:radius="31dp" />
         </shape>
     </item>
